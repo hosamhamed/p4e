@@ -7,3 +7,4 @@ else:
     pay += (hrs - 40) * (rate * 1.5)
 print(pay)
 print('Done!')
+print('Done feature C')
