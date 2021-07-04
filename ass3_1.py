@@ -6,3 +6,4 @@ else:
     pay = 40 * rate
     pay += (hrs - 40) * (rate * 1.5)
 print(pay)
+print('Done feature C')
