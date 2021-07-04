@@ -1,3 +1,4 @@
+#simple dictionary example
 def ninja_intro(dictionary):
     for key, value in dictionary.items():
         print(f'I am {key} and I am {value} belt')
