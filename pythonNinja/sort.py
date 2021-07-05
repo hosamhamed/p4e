@@ -11,9 +11,9 @@ while True:
     belt = input('Enter belt color: ')
     ninja_dict[name] = belt
     another = input('add another? (y/n)')
-    if another == 'y':
-        continue
-    else:
+    if another == 'n':
         break
+    else:
+        continue
 
 belt_count(ninja_dict)
